@@ -6,6 +6,7 @@ from urllib.request import urlopen as uReq
 import logging
 logging.basicConfig(filename="scrapper.log" , level=logging.INFO)
 
+
 app = Flask(__name__)
 
 @app.route("/", methods = ['GET'])
